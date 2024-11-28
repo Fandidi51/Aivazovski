@@ -1,0 +1,30 @@
+.portfolio-section {
+    background-color: var(--bg-main-grey);
+    text-align: center;
+    color: var(--color-main-black);
+    padding: 80px 0 100px 0;
+}
+
+.portfolio-title {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.portfolio-picture {
+    max-width: 950px;
+    width: 100%;
+    margin: 75px 0 40px;
+    object-fit: cover;
+
+}
+
+.portfolio-description {
+    font-size: 18px;
+    font-weight: 500;
+}
+@media (max-width: 480px){
+    .portfolio-description {
+        font-size: 14px;
+    }
+}
